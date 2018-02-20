@@ -31814,7 +31814,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 var mediaTagAPI = (cov_mriitvuge.s[0]++, __webpack_require__(63));
 
 cov_mriitvuge.s[1]++;
-document.addEventListener('DOMContentLoaded', function () {
+document.onload = function () {
 	cov_mriitvuge.f[0]++;
 
 	var observer = (cov_mriitvuge.s[2]++, new MutationObserver(handleMutations));
@@ -32052,7 +32052,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	observer.observe(target, configuration);
 	cov_mriitvuge.s[41]++;
 	launch(Array.from(document.getElementsByTagName('media-tag')));
-});
+};
 
 cov_mriitvuge.s[42]++;
 module.exports = mediaTagAPI;
