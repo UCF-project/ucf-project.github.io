@@ -31814,7 +31814,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 var mediaTagAPI = (cov_mriitvuge.s[0]++, __webpack_require__(63));
 
 cov_mriitvuge.s[1]++;
-window.addEventListener('load', function () {
+(function () {
 	cov_mriitvuge.f[0]++;
 
 	var observer = (cov_mriitvuge.s[2]++, new MutationObserver(handleMutations));
@@ -32052,7 +32052,7 @@ window.addEventListener('load', function () {
 	observer.observe(target, configuration);
 	cov_mriitvuge.s[41]++;
 	launch(Array.from(document.getElementsByTagName('media-tag')));
-});
+})();
 
 cov_mriitvuge.s[42]++;
 module.exports = mediaTagAPI;
@@ -32494,7 +32494,7 @@ MediaTag.CryptoFilter = CryptoFilter;
 cov_uak4y9bri.s[18]++;
 MediaTag.CryptoFilter.setAllowedMediaTypes(['image/png', 'image/jpeg', 'image/jpg', 'image/gif', 'audio/mp3', 'audio/ogg', 'audio/wav', 'audio/webm', 'video/mp4', 'video/ogg', 'video/webm', 'application/pdf', 'application/dash+xml', 'download']);
 
-/**
+/**test-media-tag-ES6.html
  * You can define a configuration to dissable some plugins.
  * If a renderer is forbidden, the processing engine must fall in it default case.
  *
